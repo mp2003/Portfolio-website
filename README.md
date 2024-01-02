@@ -1,27 +1,26 @@
-Project Overview
+#Project Overview
 I collaborated with the renowned designer, @codebucks27 (CodeBucks), to enhance the interface design of this website. The collaboration was a seamless experience, bringing a fresh and refined look to the project.
 
-Tech Stack
+#Tech Stack
 The project is built using a modern tech stack to ensure performance, maintainability, and scalability. Here's an overview:
 
-Frontend:
+##Frontend:
 
-ReactJS: Utilized for building the user interface components and managing the application state efficiently.
-Styled Components: Employed for styling, offering a dynamic and maintainable approach to designing the UI.
+###ReactJS: Utilized for building the user interface components and managing the application state efficiently.
+###Styled Components: Employed for styling, offering a dynamic and maintainable approach to designing the UI.
+
 Version Control:
+###Git: Used for version control, enabling seamless collaboration and tracking changes throughout the development process.
 
-Git: Used for version control, enabling seamless collaboration and tracking changes throughout the development process.
-Getting Started
+#Getting Started
 To run this project locally, follow these steps:
 
-Clone the repository:
+##Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/your-username/your-repository.git
-cd your-repository
+###git clone https://github.com/your-username/your-repository.git
+###cd your-repository
+
 Install dependencies:
-
 bash
 Copy code
 npm install
