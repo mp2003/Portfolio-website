@@ -1,7 +1,7 @@
 {
   "particles": {
     "number": {
-      "value": 100,
+      "value": 80,
       "density": {
         "enable": true,
         "value_area": 800
@@ -70,11 +70,11 @@
   "interactivity": {
     "detect_on": "canvas",
     "events": {
-      "onhover": {
+      "onclick": {
         "enable": false,
         "mode": "bubble"
       },
-      "onclick": {
+      "onhover": {
         "enable": true,
         "mode": "repulse"
       },
@@ -99,7 +99,7 @@
         "duration": 0.4
       },
       "push": {
-        "particles_nb": 4
+        "particles_nb": 5
       },
       "remove": {
         "particles_nb": 2

@@ -26,7 +26,7 @@ const Box = styled(motion.a)`
 `;
 
 const Image = styled.div`
-  background-image: ${(props) => `url(${props.img})`};
+  background-image: ${(props) => `url(${props.imgSrc})`};
   width: 100%;
   height: 60%;
   background-size: cover;
@@ -77,10 +77,11 @@ const Item = {
 
 const BlogComponent = (props) => {
   const { name, tags, date, imgSrc, link } = props.blog;
+  console.log(`image source ${imgSrc}`);
   return (
     <Container variants={Item}>
       <Box target="_blank" href={`${link}`}>
-        <Image img={imgSrc} />
+        <Image imgSrc={imgSrc} />
         <Title>{name}</Title>
         <HashTags>
           {tags.map((t, id) => {

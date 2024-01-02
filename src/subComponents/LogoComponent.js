@@ -1,27 +1,21 @@
-import React from 'react'
-import styled from 'styled-components'
-import { DarkTheme } from '../components/Themes'
-
-
-
+import React from "react";
+import styled from "styled-components";
+import { DarkTheme } from "../components/Themes";
 
 const Logo = styled.h1`
-display: inline-block;
-color: ${props => props.color === 'dark' ? DarkTheme.text : DarkTheme.body};
-font-family: 'Pacifico',cursive;
+  display: inline-block;
+  color: ${(props) =>
+    props.color === "dark" ? DarkTheme.text : DarkTheme.body};
+  font-family: "Pacifico", cursive;
 
-position: fixed;
-left: 2rem;
-top: 2rem;
-z-index:3;
-`
+  position: fixed;
+  left: 2rem;
+  top: 2.25rem;
+  z-index: 3;
+`;
 
 const LogoComponent = (props) => {
-    return (
-        <Logo color={props.theme}>
-          CB
-        </Logo>
-    )
-}
+  return <Logo color={props.theme}>MP</Logo>;
+};
 
-export default LogoComponent
+export default LogoComponent;
