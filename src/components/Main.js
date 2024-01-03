@@ -142,6 +142,52 @@ const containerStyles = {
   },
 };
 
+const bounceInRightAnimation = keyframes`
+  0% {
+    transform: translateX(600px);
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+  38% {
+    transform: translateX(0);
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  55% {
+    transform: translateX(68px);
+    animation-timing-function: ease-in;
+  }
+  72% {
+    transform: translateX(0);
+    animation-timing-function: ease-out;
+  }
+  81% {
+    transform: translateX(32px);
+    animation-timing-function: ease-in;
+  }
+  90% {
+    transform: translateX(0);
+    animation-timing-function: ease-out;
+  }
+  95% {
+    transform: translateX(8px);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translateX(0);
+    animation-timing-function: ease-out;
+  }
+`;
+
+const BounceInRightH2 = styled(motion.h2)`
+  animation: ${bounceInRightAnimation} 1.1s both;
+  &:hover {
+    scale: 1.1;
+  }
+  &:active {
+    scale: 0.9;
+  }
+`;
 const Main = () => {
   const [click, setClick] = useState(false);
 
@@ -182,20 +228,23 @@ const Main = () => {
           </motion.h2>
         </Contact>
         <BLOG to="/blog">
-          <motion.h2
+          <BounceInRightH2
+            onClick={click}
             initial={{
-              y: -200,
-              transition: { type: "spring", duration: 1.5, delay: 1 },
+              x: 20, // Start off-screen to the right
+              opacity: 1,
             }}
             animate={{
-              y: 0,
-              transition: { type: "spring", duration: 1.5, delay: 1 },
+              x: 0,
+              opacity: 1,
+              transition: { type: "spring", duration: 1, ease: "easeInOut" },
             }}
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
-            Project
-          </motion.h2>
+            {" "}
+            Projects
+          </BounceInRightH2>{" "}
         </BLOG>
         <BottomBar>
           <ABOUT to="/about" click={+click}>
