@@ -3,6 +3,17 @@ import styled, { keyframes } from "styled-components";
 
 import music from "../assets/audio/Y2meta.app - Fur Elise- Beethoven (Michael Lucarelli ,classical guitar) (128 kbps).mp3";
 
+const slideInLeftAnimation = keyframes`
+  0% {
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+`;
+
 const Box = styled.div`
   display: flex;
   cursor: pointer;
@@ -10,6 +21,8 @@ const Box = styled.div`
   left: 8rem;
   top: 3rem;
   z-index: 10;
+  animation: ${slideInLeftAnimation} 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    0.2s both;
 
   & > *:nth-child(1) {
     animation-delay: 0.2s;
@@ -29,20 +42,20 @@ const Box = styled.div`
 `;
 
 const play = keyframes`
-0%{
-    transform:scaleY(1);
-}
-50%{
-    transform:scaleY(2);
-}
-100%{
-    transform:scaleY(1);
-}
+  0% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(2);
+  }
+  100% {
+    transform: scaleY(1);
+  }
 `;
+
 const Line = styled.span`
   background: ${(props) => props.theme.text};
   border: 1px solid ${(props) => props.theme.body};
-
   animation: ${play} 1s ease infinite;
   animation-play-state: ${(props) => (props.click ? "running" : "paused")};
   height: 1rem;
@@ -63,6 +76,7 @@ const SoundBar = () => {
       ref.current.pause();
     }
   };
+
   return (
     <Box onClick={() => handleClick()}>
       <Line click={click} />

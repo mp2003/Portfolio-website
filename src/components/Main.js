@@ -180,7 +180,7 @@ const bounceInRightAnimation = keyframes`
 `;
 
 const BounceInRightH2 = styled(motion.h2)`
-  animation: ${bounceInRightAnimation} 1.1s both;
+  animation: ${bounceInRightAnimation} 1.5s both 1s;
   &:hover {
     scale: 1.1;
   }
@@ -208,7 +208,7 @@ const Main = () => {
             height={click ? 120 : 200}
             fill="currentColor"
           />
-          <span>click here</span>
+          <span>Click Here, Lets take you for a spin</span>
         </Center>
 
         <Contact target="_blank" href="mailto:m.p6092003@gmail.com">
@@ -231,13 +231,22 @@ const Main = () => {
           <BounceInRightH2
             onClick={click}
             initial={{
-              x: 20, // Start off-screen to the right
+              x: 200, // Start off-screen to the right
               opacity: 1,
+              duration: 1.5,
+              delay: 1,
+              background: { backgroundColor: "red", opacity: 0 },
             }}
             animate={{
               x: 0,
               opacity: 1,
-              transition: { type: "spring", duration: 1, ease: "easeInOut" },
+              transition: {
+                type: "spring",
+                duration: 1.5,
+                delay: 1,
+                ease: "easeInOut",
+              },
+              background: { backgroundColor: "red", opacity: 1 },
             }}
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
