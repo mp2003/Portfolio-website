@@ -23,6 +23,7 @@ const MainContainer = styled.div`
   h6 {
     font-family: "Karla", sans-serif;
     font-weight: 500;
+    font-size: 1.4em;
   }
 `;
 
@@ -221,7 +222,7 @@ const Main = () => {
               y: 0,
               transition: { type: "spring", duration: 1.5, delay: 1 },
             }}
-            whileHover={{ scale: 1.1 }}
+            whileHover={{ scale: 1.2 }}
             whileTap={{ scale: 0.9 }}
           >
             Say hi..
@@ -248,7 +249,7 @@ const Main = () => {
               },
               background: { backgroundColor: "red", opacity: 1 },
             }}
-            whileHover={{ scale: 1.1 }}
+            whileHover={{ scale: 1.2 }}
             whileTap={{ scale: 0.9 }}
           >
             {" "}
@@ -266,7 +267,7 @@ const Main = () => {
                 y: 0,
                 transition: { type: "spring", duration: 1.5, delay: 1 },
               }}
-              whileHover={{ scale: 1.1 }}
+              whileHover={{ scale: 1.2 }}
               whileTap={{ scale: 0.9 }}
             >
               About.
@@ -282,7 +283,7 @@ const Main = () => {
                 y: 0,
                 transition: { type: "spring", duration: 1.5, delay: 1 },
               }}
-              whileHover={{ scale: 1.1 }}
+              whileHover={{ scale: 1.2 }}
               whileTap={{ scale: 0.9 }}
             >
               My Skills.
