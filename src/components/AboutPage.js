@@ -70,23 +70,19 @@ const AboutPage = () => {
           <img src={astronaut} alt="spaceman" />
         </Spaceman>
         <Main>
-          I'm a passionate web developer based in India, dedicated to crafting
-          fantastic websites for an exceptional user experience.
+          Passionate web developer from India, dedicated to crafting fantastic
+          websites for exceptional user experiences.
           <br></br>
-          My enthusiasm for web development revolves around JavaScript, and I'm
-          currently immersing myself in the captivating realm of frontend
-          development. In my ongoing learning journey, I'm ardently mastering
-          the intricacies of React.js and delving into the vast possibilities
-          offered by Next.js.
+          Enthusiastic about JavaScript and currently diving deep into frontend
+          development. Mastering React.js and exploring possibilities with
+          Next.js.
           <br></br>
-          Exploring the dynamic landscape of frontend technologies is both my
-          pursuit and joy. As I navigate this exciting journey, my goal is to
-          continuously enhance my skills and contribute to the ever-evolving
-          world of web development.
+          Exploring the dynamic landscape of frontend technologies brings me
+          joy. My goal is to enhance skills and contribute to the ever-evolving
+          web development world.
           <br></br>
-          If you share the same enthusiasm or wish to connect, feel free to
-          reach out through social media channels. Let's embark on this magical
-          journey of web development together!
+          If you share the same enthusiasm, reach out through social media.
+          Let's embark on this magical web development journey together!
         </Main>
 
         <BigTitle text="ABOUT" top="10%" left="5%" />
