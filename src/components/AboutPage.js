@@ -84,7 +84,7 @@ const AboutPage = () => {
           If you share the same enthusiasm, reach out through social media.
           Let's embark on this magical web development journey together!
         </Main>
-
+        <br></br>
         <BigTitle text="ABOUT" top="10%" left="5%" />
       </Box>
     </ThemeProvider>
