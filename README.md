@@ -48,4 +48,4 @@ Feel free to contribute to the project by opening issues, providing feedback, or
 
 ## Acknowledgments
 
-Special thanks to [@codebucks27](https://github.com/codebucks27) for the outstanding design collaboration.
+Special thanks to [@codebucks27](https://github.com/codebucks27) for the outstanding design collaboration
