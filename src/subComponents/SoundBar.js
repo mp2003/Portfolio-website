@@ -86,7 +86,7 @@ const SoundBar = () => {
       <Line click={click} />
 
       <audio src={music} ref={ref} loop />
-      <p style={{ paddingLeft: "0.7em" }}>
+      <p style={{ paddingLeft: "0.7rem" }}>
         Click here, Trust me it will sound better
       </p>
     </Box>

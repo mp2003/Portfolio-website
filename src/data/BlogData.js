@@ -3,6 +3,7 @@ import ShareMe from "../assets/ProjectImg/ShareMe.png";
 import GoldsGym from "../assets/ProjectImg/GoldsGym.png";
 import promptopia from "../assets/ProjectImg/promptia.png";
 import numberToWhatsapp from "../assets/ProjectImg/numberTowhatsapp.png";
+import nike from "../assets/ProjectImg/nike.png";
 
 export const Blogs = [
   {
@@ -36,5 +37,13 @@ export const Blogs = [
     date: "October, 2023",
     imgSrc: promptopia,
     link: "https://promptopia-kuyrowij9-mp2003.vercel.app/",
+  },
+  {
+    id: 5,
+    name: "Nike Frontend-Clone",
+    tags: ["Reactjs", "Tailwind CSS"],
+    date: "January, 2024",
+    imgSrc: nike,
+    link: "https://react-revised-nike-clone-frontend.vercel.app/",
   },
 ];

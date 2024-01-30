@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
 import Me from "../assets/Images/imageedit_3_5355211161.png";
+
 const Box = styled(motion.div)`
   position: absolute;
   left: 50%;
@@ -31,6 +32,7 @@ const Box = styled(motion.div)`
 
   z-index: 1;
 `;
+
 const SubBox = styled.div`
   width: 50%;
   position: relative;
@@ -43,6 +45,10 @@ const SubBox = styled.div`
     transform: translate(-50%, 0%);
     width: 100%;
     height: auto;
+    background-image: linear-gradient(to top, red, transparent 90%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 1px solid black;
   }
 `;
 
@@ -75,7 +81,7 @@ const Intro = () => {
           <h1>Hi,</h1>
           <h3>I'm Milind Pandey.</h3>
           <h6>
-            currently diving deep into the world of frontend development. My
+            Currently diving deep into the world of frontend development. My
             learning journey includes mastering React.js and exploring the
             possibilities with Next.js.
           </h6>
@@ -87,17 +93,7 @@ const Intro = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 1.5 }}
         >
-          <img
-            className="pic"
-            src={Me}
-            alt="Profile Pic"
-            style={{
-              backgroundImage: "linear-gradient(to top, red, transparent 90%)",
-              backgroundRepeat: "no-repeat",
-              backgroundSize: "cover",
-              borderBottom: "1px solid black",
-            }}
-          />
+          <img className="pic" src={Me} alt="Profile Pic" />
         </motion.div>
       </SubBox>
     </Box>
