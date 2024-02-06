@@ -4,6 +4,8 @@ import GoldsGym from "../assets/ProjectImg/GoldsGym.png";
 import promptopia from "../assets/ProjectImg/promptia.png";
 import numberToWhatsapp from "../assets/ProjectImg/numberTowhatsapp.png";
 import nike from "../assets/ProjectImg/nike.png";
+import adminDashboard from "../assets/ProjectImg/AdminDashboard.png";
+import otp from "../assets/ProjectImg/OTP.png";
 
 export const Blogs = [
   {
@@ -45,5 +47,21 @@ export const Blogs = [
     date: "January, 2024",
     imgSrc: nike,
     link: "https://react-revised-nike-clone-frontend.vercel.app/",
+  },
+  {
+    id: 6,
+    name: "Admin DashBoard",
+    tags: ["Reactjs", "Tailwind CSS", "NodeJs", "Express"],
+    date: "January, 2024",
+    imgSrc: adminDashboard,
+    link: "https://react-revised.vercel.app/",
+  },
+  {
+    id: 7,
+    name: "OTP Validation",
+    tags: ["Reactjs", "Tailwind CSS", "firebase"],
+    date: "January, 2024",
+    imgSrc: otp,
+    link: "https://otp-login-gvss.vercel.app/",
   },
 ];
