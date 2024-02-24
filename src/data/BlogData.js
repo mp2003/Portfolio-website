@@ -69,7 +69,7 @@ export const Blogs = [
     name: "3D Website Using React",
     tags: ["Reactjs", "Tailwind CSS", "ThreeJS"],
     date: "Februray, 2024",
-    imgSrc: otp,
+    imgSrc: threejs,
     link: "https://three-js-liart.vercel.app/",
   },
 ];
