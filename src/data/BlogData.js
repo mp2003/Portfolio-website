@@ -6,7 +6,7 @@ import numberToWhatsapp from "../assets/ProjectImg/numberTowhatsapp.png";
 import nike from "../assets/ProjectImg/nike.png";
 import adminDashboard from "../assets/ProjectImg/AdminDashboard.png";
 import otp from "../assets/ProjectImg/OTP.png";
-
+import threejs from "../assets/ProjectImg/Screenshot from 2024-02-24 23-38-08.png";
 export const Blogs = [
   {
     id: 1,
@@ -63,5 +63,13 @@ export const Blogs = [
     date: "January, 2024",
     imgSrc: otp,
     link: "https://otp-login-gvss.vercel.app/",
+  },
+  {
+    id: 8,
+    name: "3D Website Using React",
+    tags: ["Reactjs", "Tailwind CSS", "ThreeJS"],
+    date: "Februray, 2024",
+    imgSrc: otp,
+    link: "https://three-js-liart.vercel.app/",
   },
 ];
