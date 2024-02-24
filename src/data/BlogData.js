@@ -38,7 +38,7 @@ export const Blogs = [
     tags: ["Nextjs", "Tailwind CSS", "MongoDB"],
     date: "October, 2023",
     imgSrc: promptopia,
-    link: "https://promptopia-kuyrowij9-mp2003.vercel.app/",
+    link: "https://promptopia-chi-six.vercel.app/",
   },
   {
     id: 5,
