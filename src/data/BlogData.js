@@ -66,7 +66,7 @@ export const Blogs = [
   },
   {
     id: 8,
-    name: "3D Website Using React",
+    name: "3D Website Using React (open in Chrome)",
     tags: ["Reactjs", "Tailwind CSS", "ThreeJS"],
     date: "Februray, 2024",
     imgSrc: threejs,
