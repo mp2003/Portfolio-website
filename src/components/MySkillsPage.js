@@ -120,7 +120,7 @@ const MySkillsPage = () => {
             <strong>Skills</strong>
             <p>
               Problem Solving, C++, Linux, Html, CSS, Javascript, Reactjs,
-              Nextjs, Tailwind etc.
+              Nextjs, Tailwind CSS etc.
             </p>
           </Description>
           <Description>

@@ -230,7 +230,7 @@ const Main = () => {
         </Contact>
         <BLOG to="/blog">
           <BounceInRightH2
-            onClick={click}
+            onClick={() => handleClick()}
             initial={{
               x: 200, // Start off-screen to the right
               opacity: 1,

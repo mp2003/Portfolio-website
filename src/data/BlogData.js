@@ -6,7 +6,7 @@ import numberToWhatsapp from "../assets/ProjectImg/numberTowhatsapp.png";
 import nike from "../assets/ProjectImg/nike.png";
 import adminDashboard from "../assets/ProjectImg/AdminDashboard.png";
 import otp from "../assets/ProjectImg/OTP.png";
-import threejs from "../assets/ProjectImg/Screenshot from 2024-02-24 23-38-08.png";
+import threejs from "../assets/ProjectImg/threejs.png";
 export const Blogs = [
   {
     id: 1,
